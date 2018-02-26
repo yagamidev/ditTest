@@ -1,17 +1,17 @@
 [Unit]
-Description=Monero Full Node
+Description=Ditcoin Full Node
 After=network.target
 
 [Service]
-User=monero
-Group=monero
+User=ditcoin
+Group=ditcoin
 WorkingDirectory=~
 
 Type=forking
-PIDFile=/var/run/monerod.pid
+PIDFile=/var/run/ditcoind.pid
 
-ExecStart=/usr/bin/monerod --config-file /etc/monerod.conf \
-    --detach --pidfile /var/run/monerod.pid
+ExecStart=/usr/bin/ditcoind --config-file /etc/ditcoind.conf \
+    --detach --pidfile /var/run/ditcoind.pid
 
 [Install]
 WantedBy=multi-user.target

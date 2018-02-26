@@ -1,4 +1,4 @@
-# Copyright (c) 2014-2017, The Monero Project
+# Copyright (c) 2014-2017, The Ditcoin Project
 #
 # All rights reserved.
 #
@@ -27,7 +27,7 @@
 # THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 cmake_minimum_required (VERSION 2.6)
-project (monero CXX)
+project (ditcoin CXX)
 
 file(GLOB P2P *)
 source_group(p2p FILES ${P2P})

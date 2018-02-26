@@ -1,4 +1,4 @@
-// Copyright (c) 2017, The Monero Project
+// Copyright (c) 2017, The Ditcoin Project
 //
 // All rights reserved.
 //
@@ -105,12 +105,12 @@ int main(int argc, char* argv[])
   SL(tools::wallet2::unsigned_tx_set);
   SL(tools::wallet2::signed_tx_set);
 
-  SL(Monero::WalletImpl);
-  SL(Monero::AddressBookRow);
-  SL(Monero::TransactionInfoImpl);
-  SL(Monero::TransactionHistoryImpl);
-  SL(Monero::PendingTransactionImpl);
-  SL(Monero::UnsignedTransactionImpl);
+  SL(Ditcoin::WalletImpl);
+  SL(Ditcoin::AddressBookRow);
+  SL(Ditcoin::TransactionInfoImpl);
+  SL(Ditcoin::TransactionHistoryImpl);
+  SL(Ditcoin::PendingTransactionImpl);
+  SL(Ditcoin::UnsignedTransactionImpl);
 
   return 0;
 }

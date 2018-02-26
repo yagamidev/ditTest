@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2014-2017, The Ditcoin Project
 //
 // All rights reserved.
 //
@@ -37,7 +37,7 @@
 
 #include <vector>
 
-namespace Monero {
+namespace Ditcoin {
   
 AddressBook::~AddressBook() {}
   
@@ -180,4 +180,4 @@ AddressBookImpl::~AddressBookImpl()
 
 } // namespace
 
-namespace Bitmonero = Monero;
+namespace Bitmonero = Ditcoin;
